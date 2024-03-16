@@ -1,0 +1,61 @@
+.scan_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.text_title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card_info {
+    margin-top: 20px;
+
+    span {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.header_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        margin-right: 20px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+.card_text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.form_button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding: 5px 20px;
+    min-width: 30px;
+    background-color: unset;
+    cursor: pointer;
+    border: '2px solid #ccc';
+    border-radius: 5px;
+}
